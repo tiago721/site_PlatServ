@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="css\estilos_profile_for.css">
+</head>
+
+<body>
+    <header id="cab_profile">
+        <nav>
+            <div class="goleft"><a href="home.html"><img src="img\logo.png" alt=""></a></div>
+            <div class="topnav">
+                <a class="active" href="home.html">Home</a>
+                <a href="#parceiros">Parceiros</a>
+                <a href="#mural">Mural de Pedidos</a>
+                <a href="#ranking">Ranking</a>
+            </div>
+            <div class="topnav" style="float: right; margin: -60px 50px 0px 0px">
+                <input type="text" placeholder="Search..">
+                <div id="circle">
+                    <p id="nome">TS</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section>
+        <div id="sec_div1">
+            <div id="sec_card01">
+                <div id="circle02">
+                    <p id="nome02">TS</p>
+                </div>
+            </div>
+            <div id="sec_card02">
+                <div id="sec_card_text01" class="card_text01">
+                    <h3>Tiago Santos</h3>
+                    <h5 class="notbolt">Cadastro: 01/09/2020 22:10</h5>
+                    <hr>
+                    <a href="profile_for_edit.html"><b>Editar</b></a>
+                </div>
+                <div id="sec_card_text02" class="card_text02">
+                    <h5>Especialidades</h5>
+                    <h4>Desenvolvedor Autônomo</h4>
+                </div>
+                <div id="sec_card_text03" class="card_text02">
+                    <h5>Trabalhos</h5>
+                    <h4>#0012</h4>
+                </div>
+                <div id="sec_card_text04" class="card_text02">
+                    <h5>Score</h5>
+                    <h4>2110</h4>
+                </div>
+                <div id="sec_card_text05" class="card_text02">
+                    <img src="img\rating-4.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="sec_div2">
+            <div id="sec_div2_box01">
+                <div id="conquistas_title">
+                    <h3>CONQUISTAS</h3>
+                </div>
+                <div class="div_conq">
+                    <img src="img/conquista_Caprichoso.png" alt="">
+                    <p>Profissional Caprichoso</p>
+                </div>
+                <div class="div_conq">
+                    <img src="img/conquista_Educado.png" alt="">
+                    <p>Atendimento Educado</p>
+                </div>
+                <div class="div_conq">
+                    <img src="img/conquista_EntregaPontual.png" alt="">
+                    <p>Entrega Pontual</p>
+                </div>
+                <div class="div_conq">
+                    <img src="img/conquista_TrabalhoLimpo.png" alt="">
+                    <p>Trabalho Limpo</p>
+                </div>                
+            </div>
+            <div id="sec_div2_box02">
+
+            </div>
+            <div id="sec_div2_box03">
+                <div class="tab">
+                    <button class="tablinks" onclick="openTabela(event, 'dados_com')" id="defaultOpen">DADOS
+                        COMERCIAIS</button>
+                    <button class="tablinks" onclick="openTabela(event, 'endereco')">ENDEREÇO</button>
+                    <button class="tablinks" onclick="openTabela(event, 'cursos')">CURSOS</button>
+                </div>
+                <div id="dados_com" class="tabcontent">
+                    <div id="table">
+                        <table>
+                            <tr>
+                                <th>Nome/Razao Social</th>
+                                <td>Tiago Gonçalves Santos</td>
+                                <th>Telefone 01</th>
+                                <td>(41)98740-4273</td>
+                            </tr>
+                            <tr>
+                                <th>CPF/CNJP</th>
+                                <td>065.152.609-46</td>
+                                <th>Telefone 02</th>
+                                <td>(41)98829-3355</td>
+                            </tr>
+                            <tr>
+                                <th>Sexo</th>
+                                <td>Masculino</td>
+                                <th>Email</th>
+                                <td>tiago721@live.com</td>
+                            </tr>
+                            <tr>
+                                <th>Especialidade</th>
+                                <td>Desenvolvedor Autônomo</td>
+                            </tr>
+                            <tr>
+                                <th>Descrição</th>
+                                <td colspan="4">
+                                    Analista de Sistemas e desenvolvedor de sistemas de gestão em PHP. Desenvolvo
+                                    sistemas e ministro aulas de desenvolvimento a mais de 20 anos. Já desenvolvi
+                                    sistemas de: cálculos financeiros e trabalhistas, controle de processos
+                                    jurídicos,
+                                    gestão de processos, controle financeiro de empresas, gestão de sócios
+                                    torcedores,
+                                    controle de produtos vendas e estoque, entre outros. Cada cliente é uma
+                                    necessidade
+                                    diferente.
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="endereco" class="tabcontent">
+                    <div id="table">
+                        <table>
+                            <tr>
+                                <th>Logradouro</th>
+                                <td>Rua André Naldony</td>
+                                <th>CEP</th>
+                                <td>83403-300</td>
+                            </tr>
+                            <tr>
+                                <th>Número</th>
+                                <td>762</td>
+                                <th>Cidade</th>
+                                <td>Colombo</td>
+                            </tr>
+                            <tr>
+                                <th>Complemento</th>
+                                <td>Casa 09</td>
+                                <th>Estado</th>
+                                <td>PR</td>
+                            </tr>
+                            <tr>
+                                <th>Bairro</th>
+                                <td>Campo Pequeno</td>
+                            </tr>                            
+                        </table>
+                    </div>
+                </div>
+
+                <div id="cursos" class="tabcontent">
+                    <h3>CURSOS</h3>
+                    <p>Área em desenvolvimento, aguarde.</p>
+                    <img src="img/construcao.png" alt="">
+                </div>
+                <script>
+                    function openTabela(evt, cityName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }
+                    document.getElementById("defaultOpen").click();                    
+                </script>
+            </div>
+        </div>
+
+        <div id="sec_div3">
+            <div>
+                <h3>SERVIÇOS REALIZADOS</h3>
+            </div>
+            <div id="sec_div3_card01">
+                <div id="foto_feedback">
+                    <div>
+                        <a href="#"><img src="img/art_mural_01.jpg" alt=""></a>
+                        <h6>img 01 - 03</h6>
+                    </div>
+                </div>
+                <div id="text_feedback">
+                    <div id="feedback_name">
+                        <h4>Contrato# 202009J26K</h4>
+                    </div>
+                    <div id="feedback_depo">
+                        <p>Carlos Eduardo</p>
+                        <p class="italic">"A empresa PlatSer necessita desenvolver uma plataforma para vendas de
+                            serviços (pintor, encanador, eletricista, diarista, serviços gerais, entre outros)."</p>
+                        <p class="italic textalign_right">
+                            Postado 16:15 - 07/09/2020
+                        </p>
+                    </div>
+                    <div id="feedback_footer">
+                        <p><strong>AVALIAÇÃO</strong></p>
+                        <img src="img/rating-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="sec_div3_card01">
+                <div id="foto_feedback">
+                    <div>
+                        <a href="#"><img src="img/art_mural_02.jpg" alt=""></a>
+                        <h6>img 01 - 02</h6>
+                    </div>
+                </div>
+                <div id="text_feedback">
+                    <div id="feedback_name">
+                        <h4>Contrato# 202009T90S</h4>
+                    </div>
+                    <div id="feedback_depo">
+                        <p>Douglas Mendes</p>
+                        <p class="italic">"Profissional muito qualificado. Trabalha com muita organização e limpeza.
+                            Serviço foi feito de modo muito satisfatório"</p>
+                        <p class="italic textalign_right">
+                            Postado 10:28 - 01/09/2020
+                        </p>
+                    </div>
+                    <div id="feedback_footer">
+                        <p><strong>AVALIAÇÃO</strong></p>
+                        <img src="img/rating-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="sec_div3_card01">
+                <div id="foto_feedback">
+                    <div>
+                        <a href="#"><img src="img/art_mural_03.jpg" alt=""></a>
+                        <h6>img 01 - 05</h6>
+                    </div>
+                </div>
+                <div id="text_feedback">
+                    <div id="feedback_name">
+                        <h4>Contrato# 202008W47J</h4>
+                    </div>
+                    <div id="feedback_depo">
+                        <p>Giuliano Ribeiro</p>
+                        <p class="italic">"Excelente trabalho, recomendo!!!"</p>
+                        <p class="italic textalign_right">
+                            Postado 12:55 - 28/08/2020
+                        </p>
+                    </div>
+                    <div id="feedback_footer">
+                        <p><strong>AVALIAÇÃO</strong></p>
+                        <img src="img/rating-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="sec_div3_proximapag">
+                <h3><a href="#">Próxima Página >></a></h3>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

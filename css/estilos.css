@@ -1,0 +1,355 @@
+body{
+    margin: auto;
+    width: 1700px;
+    height: 1000px;
+    background-image: url('../img/mark.png');
+    background-repeat: no-repeat;
+    background-color: rgb(235, 235, 235);
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#cab_index{
+    background-color: white;
+    padding: 00px 20px 00px 20px;
+    border-radius: 0px 0px 20px 20px;
+    color: rgb(47, 0, 255);
+    padding-bottom: 00px;
+}
+#cab_index img{
+    width: 90px;
+}
+#divnavbar{
+    float: left;
+    height: 80px;
+    font-size: 12px;
+}
+#buttonsigin{
+    margin-left: 10px;
+}
+
+
+#sec_index{
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+    height: 1170px;
+}
+#sec_subtitle{
+    font-size: 19px;
+}
+#lado_a{
+    width: 1000px;
+    height: 600px;
+    float: left;
+}
+#lado_b{
+    background-color: rgb(44, 44, 44);
+    width: 600px;
+    height: 680px;
+    border-radius: 5px;
+    float: right;
+    color: white;
+    text-align: center;
+}
+#lado_c{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 600px;
+    border-radius: 8px;
+    margin-top: -30px;
+    float: left;
+    border: 1px solid #aaaaaa;
+}
+#divmain{
+    width: 1000px;    
+    float: left;
+}
+#divmain img{
+    height: 130px;
+    float: left;
+    padding: 10px;
+}
+#divtext{
+    width: 330px;
+    height: 130px;
+    float: right;
+    margin-top: 10px;
+}
+#divfuncao{
+    margin-top: -30px;
+}
+#text1{
+    float: right;
+    vertical-align: 10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace  ;
+}
+#sec_index h2{
+    font-family: 'Courier New', Courier, monospace  ;
+    font-size: 30px;
+}
+#divnavbar a{    
+    text-decoration: none;
+}
+#rating p{
+    text-align: center;
+    font-size: 10px;   
+    float: right;
+    margin: -10px 10px 0px 0px;
+}
+#rating img{
+    width: 80px;
+    height: 17px;
+    margin: -35px 0px 0px -10px;
+}
+#title1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#text2{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+#text3{
+    text-decoration: none;
+}
+#signup-form{
+    text-align: left;
+    float: left;
+    padding: 20px 60px 60px 60px;
+}
+#signup-form button{
+    width: 480px;
+    height: 70px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    background-color: rgb(255, 57, 57);
+}
+#prestador, #cliente{
+    display: flex;
+    font-size: 10px;
+}
+#row-policy{
+    float: left;
+    padding: 55px;
+}
+#forum_title{
+    margin: 30px;
+}
+#button_forum{
+    width: 380px;
+    height: 60px;
+    float: right;
+    background-color: lightgreen;
+    border: 0px solid lightslategray;
+    border-radius: 5px;
+    box-shadow: 1px 2px #aaaaaa;
+}
+#mural_img{
+    width: 220px;
+    margin: -10px 0px 0px 10px;
+}
+#art_pedido, #art_pedido2, #art_pedido3{
+    background-color: rgb(228, 228, 228);
+    width: 1000px;
+    height: 140px;    
+    float: left;
+}
+#art_fotos, #art_fotos2, #art_fotos3{
+    width: 160px;
+    float: left;    
+}
+#art_fotos p, #art_fotos2 p, #art_fotos3 p{
+    text-align: center;
+    font-size: 10px;    
+}
+#art_img, #art_img2, #art_img3{
+    width: 150px;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+}
+#art_inter, #art_inter2, #art_inter3{
+    background-color: white;
+    width: 830px;
+    height: 130px;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+}
+#art_inter h6, #art_inter2 h6, #art_inter3 h6{
+    font-size: 20px;
+}
+#art_inter h5, #art_inter2 h5, #art_inter3 h5{
+    font-size: 20px;
+    margin: -5px 0px 0px 90px;
+}
+#mural1, #mural1-2, #mural1-3{
+    width: 70px;
+    float: left;
+    margin: -15px 0px 0px 15px;
+}
+#art_name, #art_name2, #art_name3{
+    height: 30px;
+    text-align: center;
+}
+#art_div2, #art_div2-2, #art_div2-3{
+    background-color: rgb(228, 228, 228);
+    height: 35px;
+    width: 750px;
+    margin-left: 50px;
+    border-radius: 4px;
+}
+#mural2 img, #mural2-2 img, #mural2-3 img{
+    width: 30px;
+    float: left;
+    margin: -10px 0px 0px 15px;
+}
+#mural3 p, #mural3-2 p, #mural3-3 p{
+    margin-left: 50px;
+    line-height: 1px ;
+}
+#date1, #date2, #date3{
+    text-align: right;
+    font-style: italic;
+    margin: -20px 10px 0px 0px;
+}
+#art_div2 p, #art_div2-2 p, #art_div2-3 p{
+    font-size: 12px;
+    margin: 2px;
+    text-align: right;
+    font-style: italic;
+}   
+#prox_pag{
+    font-size: 12px;
+    margin: 460px 00px 0px 0px;
+    display: block;
+    text-align: center;
+} 
+
+footer{
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    height: 90px;
+    line-height: 3px;
+    text-align: left;
+}
+footer img{
+    width: 70px;
+    float: right;
+}
+#footer_text{
+    margin-top: 60px;
+    line-height: 0px;
+}
+
+
+h6{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 0px;
+}
+p{
+    font-size: 13px;
+}
+
+
+
+.divbox{
+    background-color: white;
+    width: 480px;
+    height: 150px;
+    margin: 10px 10px 0px 5px;
+    display: flexbox;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 1px 2px #aaaaaa;
+}
+.divbox2{
+    background-color: white;
+    width: 480px;
+    height: 150px;
+    margin: 10px 10px 0px 5px;
+    display: flexbox;
+    float: right;
+    border-radius: 8px;
+    box-shadow: 1px 2px #aaaaaa;
+}
+.navbar{
+    vertical-align: middle;
+    display: inline-block;
+    margin: 30px 20px 0px 20px;
+}
+.form-label-group{
+    padding: 0px 0px 20px 0px;
+}
+.form-control{
+    height: 40px;
+    width: 470px;
+}
+.goleft{
+    float: left;
+}
+.back{
+    background-color: yellowgreen;
+    display: table;
+}
+.fix{
+    clear: both;
+}
+
+
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: underline; 
+    color: #f00    
+	}
+a:active {
+	text-decoration: none
+    }
+    
+
+    .radio-item {
+        display: inline-block;
+        position: relative;
+        padding: 0 30px;        
+      }
+      
+      .radio-item input[type='radio'] {
+        display: none;
+      }
+      
+      .radio-item label {
+        color: rgb(145, 145, 145);
+        font-weight: normal;
+      }
+      
+      .radio-item label:before {
+        content: " ";
+        display: inline-block;
+        position: relative;
+        top: 5px;
+        margin: 0 5px 0 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 11px;
+        border: 2px solid #004c97;
+        background-color: transparent;
+      }
+      
+      .radio-item input[type=radio]:checked + label:after {
+        border-radius: 11px;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 11px;
+        left: 36px;
+        content: " ";
+        display: block;
+        background: #07db00;
+      }

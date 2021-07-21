@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil</title>
+    <link rel="stylesheet" href="css\estilos_profile_for_edit.css">
+</head>
+
+<body>
+    <header id="cab_profile">
+        <nav>
+            <div class="goleft"><a href="home.html"><img src="img\logo.png" alt=""></a></div>
+            <div class="topnav">
+                <a class="active" href="home.html">Home</a>
+                <a href="#parceiros">Parceiros</a>
+                <a href="#mural">Mural de Pedidos</a>
+                <a href="#ranking">Ranking</a>
+            </div>
+            <div class="topnav" style="float: right; margin: -60px 50px 0px 0px">
+                <input type="text" placeholder="Search..">
+                <div id="circle">
+                    <p id="nome">TS</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section id="sec_profile">
+        <div id="sec_div_side">
+            <div class="tab">
+                <button class="tablinks" onclick="openTabela(event, 'dados_pessoais')" id="defaultOpen">DADOS
+                    PESSOAIS</button>
+                <button class="tablinks" onclick="openTabela(event, 'endereco2')">ENDEREÇO</button>
+                <button class="tablinks" onclick="openTabela(event, 'cursos')">CURSOS</button>
+            </div>
+        </div>
+        <div id="sec_div_form">
+
+            <div id="dados_pessoais" class="tabcontent">
+                <form action="#" method="POST">
+                    <fieldset style="float: left;">
+                        <label for="">Nome</label><br>
+                        <input type="text" name="f_nome" maxlength="100" size="61"><br>
+                        <label for="">E-mail</label><br>
+                        <input type="text" name="f_email" maxlength="100" size="61"><br>
+                        <label for="">Celular 01</label><br>
+                        <input type="text" name="f_celu01" maxlength="100" size="61"><br>
+                        <label for="">Celular 02</label><br>
+                        <input type="text" name="f_celu02" maxlength="100" size="61"><br>
+                        <label for="">Data de Nascimento</label><br>
+                        <input type="text" name="f_datanasc" maxlength="100" size="61" placeholder="dd/mm/aaaa"><br>
+                        <label for="">CPF</label><br>
+                        <input type="text" name="f_cpf" maxlength="100" size="61"><br><br>
+                        <input type="submit" name="f_enviar" value="Atualizar">
+                    </fieldset>
+                </form>
+            </div>
+
+            <div id="endereco2" class="tabcontent">
+                <fieldset style="float: left;">
+                    <label for="">Endereço</label><br>
+                    <input type="text" name="f_endereco" maxlength="100" size="61"><br>
+                    <label for="">Numero</label><br>
+                    <input type="text" name="f_numero" maxlength="100" size="61"><br>
+                    <label for="">Complemento</label><br>
+                    <input type="text" name="f_comple" maxlength="100" size="61"><br>
+                    <label for="">CEP</label><br>
+                    <input type="text" name="f_cep" maxlength="100" size="61"><br>
+                    <label for="">Bairro</label><br>
+                    <input type="text" name="f_bairro" maxlength="100" size="61"><br><br>
+                    <input type="submit" name="f_enviar" value="Atualizar">
+                </fieldset>
+            </div>
+
+            <div id="cursos" class="tabcontent">
+                <h3>CURSOS</h3>
+                <p>Área em desenvolvimento, aguarde.</p>
+                <img src="img/construcao.png" alt="">
+            </div>
+
+        </div>
+        <script>
+            function openTabela(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+            document.getElementById("defaultOpen").click();   
+        </script>
+    </section>
+</body>
+
+</html>

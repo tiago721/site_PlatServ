@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css\estilos.css">
+</head>
+
+<body>
+    <header id="cab_index">
+        <nav>
+            <div class="goleft"><a href=""><img src="img\logo.png" alt=""></a></div>
+            <div id="divnavbar">
+                <li class="navbar"><a href="">SOU UMA EMPRESA</a></li>
+                <li class="navbar"><a href="">SOU UM CLIENTE</a></li>
+                <li class="navbar"><a href="">DÚVIDAS?</a></li>
+                <li class="navbar"><a href="login.html">
+                        <span>Já tem cadastro?</span>
+                        <button id="buttonsigin">ENTRAR</button>
+                    </a></li>
+            </div>
+        </nav>
+        <img src="img\index01.jpg" alt="" style="float: right;">
+        <br class="fix">
+    </header>
+
+    <section id="sec_index">
+        <div>
+            <div id="lado_a">
+                <div>
+                    <h2>DIVULGUE SEUS SERVIÇOS PARA <br> UMA GRANDE REDE DE CONSUMIDORES</h2>
+                </div>
+                <div>
+                    <p id="sec_subtitle">
+                        Se você é um prestador de serviços e possuí habilidades diferenciadas cadastre-se gratuitamente
+                        para divulgar seu trabalho à uma rede de +100 mil usuários.
+                    </p>
+                </div>
+                <div id="divmain">
+                    <div class="divbox">
+                        <a href="">
+                            <div><img src="img\index01.jpg" alt=""></div>
+                            <div id="divtext">
+                                <h6>João Alexandre da Silva</h6>
+                                <p id="divfuncao">Eletricista Residencial</p>
+                                <p>Reparo e manutenção de toda parte elétrica residencial. Manutenção em portões
+                                    eletronicos
+                                    e sistemas de vigilancia.</p>
+                            </div>
+                            <div id="rating">
+                                <img src="img\rating-4.png" alt="">
+                                <p id="consulta_agenda">Consultar Agenda</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="divbox2">
+                        <a href="">
+                            <div><img src="img\index02.jpg" alt=""></div>
+                            <div id="divtext">
+                                <h6>Sergio Pimenta</h6>
+                                <p id="divfuncao">Pedreiro - Construtor</p>
+                                <p>Contrução em geral. Faço desde muros, ediculas, calçamento e telhados.</p>
+                            </div>
+                            <div id="rating">
+                                <img src="img\rating-3.png" alt="">
+                                <p id="consulta_agenda">Consultar Agenda</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="divbox">
+                        <a href="">
+                            <div><img src="img\index03.jpg" alt=""></div>
+                            <div id="divtext">
+                                <h6>Casa & Jardim ltda</h6>
+                                <p id="divfuncao">Jardinagem</p>
+                                <p>Somos especializados na montagem e manutenção de jardins e áreas verdes. Corte e poda
+                                    de
+                                    árvores. Jardins ornamentais.</p>
+                            </div>
+                            <div id="rating">
+                                <img src="img\rating-5.png" alt="">
+                                <p id="consulta_agenda">Consultar Agenda</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="divbox2">
+                        <a href="">
+                            <div><img src="img\index04.jpg" alt=""></div>
+                            <div id="divtext">
+                                <h6>Otávio Simão</h6>
+                                <p id="divfuncao">Pintor Residencial</p>
+                                <p>Realizo pintura e reparo em residencias e prédios comerciais. Tenho uma equipe
+                                    treinada e
+                                    executamos o serviço em tempo recorde.</p>
+                            </div>
+                            <div id="rating">
+                                <img src="img\rating-4.png" alt="">
+                                <p id="consulta_agenda">Consultar Agenda</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="text1">
+                    <a id="text3" href="">
+                        <p><strong> OUTROS PROFISSIONAIS...</strong></p>
+                    </a>
+                </div>
+            </div>
+            <div id="lado_b">
+                <div>
+                    <div>
+                        <h5 id="title1">COMECE AGORA. É GRÁTIS! <br>
+                            <a id="text2" href="login.html">
+                                JÁ TEM CONTA? <u>FAZER LOGIN</u>
+                            </a>
+                        </h5>
+                        <form id="signup-form" onsubmit="return false;">
+                            <div class="form-label-group">
+                                <input type="text" class="form-control" id="name" required="" name="name"
+                                    placeholder="NOME COMPLETO">
+                            </div>
+                            <div class="form-label-group">
+                                <input type="email" class="form-control" id="email" required="" name="email"
+                                    placeholder="E-MAIL">
+                            </div>
+                            <div class="form-label-group">
+                                <input type="password" class="form-control" id="password" required="" name="password"
+                                    placeholder="SENHA">
+                            </div>
+                            <div class="form-label-group">
+                                <div class="radio-item">
+                                    <input type="radio" id="ritema" name="tipo" value="prestador" required="">
+                                    <label for="ritema">Sou Prestador de Serviços</label>
+                                </div>
+
+                                <div class="radio-item">
+                                    <input type="radio" id="ritemb" name="tipo" value="cliente">
+                                    <label for="ritemb">Sou um Cliente</label>
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit">                                   
+                                    <span>CRIAR MINHA CONTA GRÁTIS</span>
+                                </button>
+                            </div>
+
+                        </form>
+                        <div id="row-policy">
+                            <div>
+                                <p>Ao clicar em "criar minha conta grátis", declaro que aceito as <a href=""
+                                        target="blank">Políticas de
+                                        Privacidade</a> e os <a href="https://app.digitalinnovation.one/terms"
+                                        target="_blank">Termos de Uso</a> da Plat Serv.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="lado_c">
+                <div id="forum_title">
+                    <img id="mural_img" src="img\mural.png" alt="">
+                    <button id="button_forum"> <a href="">Criar um Pedido</a></button>
+                </div>
+
+
+
+                <article id="art_pedido">
+                    <div id="art_fotos">
+                        <img id="art_img" src="img\art_mural_01.jpg" alt="">
+                        <p>Img 01 - 03</p>
+                    </div>
+                    <div id="art_inter">
+                        <div id="art_name">
+                            <h6>TIAGO GONÇALVES</h6>
+                        </div>
+                        <div id="art_div1">
+                            <img id="mural1" src="img\mural2.png" alt="">
+                            <h5>Jardineiro</h5>
+                        </div>
+                        <div id="art_div2">
+                            <p>"Tenho um terreno no Bairro Alto, medidas 10mx10m e gostaria de colocar grama.<br>Também
+                                existe uma árvore para podar."</p>
+                        </div>
+                        <div id="art_div3">
+                            <div id="mural2"><img src="img\norte.png" alt=""></div>
+                            <div id="mural3">
+                                <div>
+                                    <p><b>Curitiba-PR</b></p>
+                                </div>
+                                <div>
+                                    <p>Rua Sebastião Alves Ferreira, nº 186 - Bairro Alto</p>
+                                    <p id="date1">Data do Anúncio: 29/08/2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+
+                <article id="art_pedido2">
+                    <div id="art_fotos2">
+                        <img id="art_img2" src="img\art_mural_02.jpg" alt="">
+                        <p>Img 01 - 05</p>
+                    </div>
+                    <div id="art_inter2">
+                        <div id="art_name2">
+                            <h6>VALTER RIBEIRO</h6>
+                        </div>
+                        <div id="art_div1">
+                            <img id="mural1-2" src="img\mural2.png" alt="">
+                            <h5>Pintor Residencial</h5>
+                        </div>
+                        <div id="art_div2-2">
+                            <p>"Preciso de um pintor para um imóvel residencial.<br>Sobrado com aproximadamente 120m²."
+                            </p>
+                        </div>
+                        <div id="art_div3">
+                            <div id="mural2-2"><img src="img\norte.png" alt=""></div>
+                            <div id="mural3">
+                                <div>
+                                    <p><b>Colombo-PR</b></p>
+                                </div>
+                                <div>
+                                    <p>Rua André Nadolny, nº 762 - Casa 09 - Osasco</p>
+                                    <p id="date2">Data do Anúncio: 25/08/2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article id="art_pedido3">
+                    <div id="art_fotos3">
+                        <img id="art_img3" src="img\art_mural_03.jpg" alt="">
+                        <p>Img 01 - 02</p>
+                    </div>
+                    <div id="art_inter3">
+                        <div id="art_name3">
+                            <h6>FERNANDA SANTOS</h6>
+                        </div>
+                        <div id="art_div1">
+                            <img id="mural1-3" src="img\mural2.png" alt="">
+                            <h5>Calheiro</h5>
+                        </div>
+                        <div id="art_div2-3">
+                            <p>"Preciso de um profissional para instalar calhas na minha casa.<br>Também tenho uma
+                                edícula nos fundos que precisa de calhas."</p>
+                        </div>
+                        <div id="art_div3">
+                            <div id="mural2-3"><img src="img\norte.png" alt=""></div>
+                            <div id="mural3">
+                                <div>
+                                    <p><b>Curitiba-PR</b></p>
+                                </div>
+                                <div>
+                                    <p>Rua Miguel Piekarski, nº 1133 - Boa Vista</p>
+                                    <p id="date3">Data do Anúncio: 22/08/2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div>
+                    <a id="prox_pag" href="">Proxima página >></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="img\logo.png" alt="">
+        <div id="footer_text">
+            <h5>© 2020 PlatServ Ltda - All Rights Reserved</h5>
+            <p>Projeto Integrador - Equipe - Thiago Ricarte, Tiago Gonçalves e Rafael Wendell </p>
+        </div>
+    </footer>
+</body>
+
+</html>
